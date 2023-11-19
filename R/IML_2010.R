@@ -1,0 +1,38 @@
+#' Base de índice de marginación a nivel localidad, 2010
+#'
+#' Base de datos del índice de marginación a nivel localidad, 2010. Esta base contiene a la población total, indicadores
+#' sociodemográficos, índice y grado de marginación.
+#' \url{https://datos.gob.mx/busca/dataset/indice-de-marginacion-carencias-poblacionales-por-localidad-municipio-y-entidad}
+#'
+#' @section Variables:
+#'
+#' \itemize{
+#' \item{\code{CVE_AGEB}}{- Clave de la localidad}
+#' \item{\code{ENT}}{- Clave de la entidad}
+#' \item{\code{NOM_ENT}}{- Nombre de la entidad}
+#' \item{\code{MUN}}{- Clave del municipio}
+#' \item{\code{NOM_ENT}}{- Nombre del municipio}
+#' \item{\code{LOC}}{- Clave de la localidad}
+#' \item{\code{NOM_LOC}}{- Nombre de la localidad}
+#' \item{\code{POB_TOT}}{- Población total 2010}
+#' \item{\code{ANIO}}{- Año} 
+#' \item{\code{ANALF}}{- Porcentaje de población analfabeta de 15 años o más}
+#' \item{\code{SBASC}}{- Porcentaje de población de 15 años o más sin educación básica}
+#' \item{\code{OVSDE}}{- Porcentaje de ocupantes en viviendas particulares habitadas sin drenaje ni excusado}
+#' \item{\code{OVSEE}}{- Porcentaje de ocupantes en viviendas particulares habitadas sin energía eléctrica}
+#' \item{\code{OVSAE}}{- Porcentaje de ocupantes en viviendas particulares habitadas sin agua entubada}
+#' \item{\code{OVPT}}{- Porcentaje de ocupantes en viviendas particulares habitadas con piso de tierra}
+#' \item{\code{OVHAC}}{- Porcentaje de ocupantes en viviendas particulares habitadas con hacinamiento}
+#' \item{\code{OVSREF}}{-Porcentaje de ocupantes en viviendas particulares habitadas sin refrigerador}
+#' \item{\code{IM_2010}}{- Índice de marginación, 2010}
+#' \item{\code{GM_2010}}{- Grado de marginación, 2010}
+#' \item{\code{IMN_2010}}{- Índice de marginación normalizado, 2010}
+#' }
+#' @docType data
+#' @name IML_2010
+#' @usage IML_2010
+#' @format A data frame with 109546 observations on the following 20 variables.
+#' @examples
+#' \dontrun{head(IML_2010)}
+"IML_2010"
+
