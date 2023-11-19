@@ -47,6 +47,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+<<<<<<< HEAD
 .Rproj.user
 README.Rmd
 pgkdown_steps.R
@@ -54,3 +55,5 @@ pgkdown_steps.R
 .DS_Store
 .quarto
 /github/
+=======
+>>>>>>> d144804a6ce2e83b4c0451b1f3feae89fa265baa
